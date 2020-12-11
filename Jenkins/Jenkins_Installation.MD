@@ -14,6 +14,12 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
    yum install java-1.8*
    #yum -y install java-1.8.0-openjdk-devel
    ```
+or can install below
+```sh
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jre
+```
 
 1. Confirm Java Version and set the java home
    ```sh
